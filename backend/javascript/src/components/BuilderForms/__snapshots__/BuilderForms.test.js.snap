@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BuilderForms component should render as expected 1`] = `
+<div>
+  <Form
+    ErrorList={[Function]}
+    liveValidate={false}
+    noHtml5Validate={false}
+    noValidate={false}
+    safeRenderCompletion={false}
+    schema={
+      Object {
+        "properties": Object {
+          "done": Object {
+            "default": false,
+            "title": "Done?",
+            "type": "boolean",
+          },
+          "title": Object {
+            "default": "A new task",
+            "title": "Title",
+            "type": "string",
+          },
+        },
+        "required": Array [
+          "title",
+        ],
+        "title": "Todo",
+        "type": "object",
+      }
+    }
+    uiSchema={Object {}}
+  />
+</div>
+`;

@@ -1,0 +1,28 @@
+{
+    "services":[
+        {
+            "sName": "Living room",
+            "slug": "living-room",
+            "sImage": "living-room.jpg",
+            "sInfo": "Living room Control"
+        },
+        {
+            "sName": "Kitchen",
+            "slug": "kitchen",
+            "sImage": "kitchen.jpg",
+            "sInfo": "Kitchen Control"
+        },
+        {
+            "sName": "Bathroom",
+            "slug": "bathroom",
+            "sImage": "bathroom.jpg",
+            "sInfo": "Bathroom Control"
+        },
+        {
+            "sName": "Room 1",
+            "slug": "room1",
+            "sImage": "room1.jpg",
+            "sInfo": "Room 1 Control"
+        }
+    ]
+}

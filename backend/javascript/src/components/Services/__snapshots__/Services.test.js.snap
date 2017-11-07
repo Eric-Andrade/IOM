@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Services component should render as expected 1`] = `
+<div>
+  <h4
+    className="title"
+  >
+    A service
+  </h4>
+  <p
+    className="subtitle"
+  />
+</div>
+`;
+
+exports[`Services component should render as expected 2`] = `
+<div>
+  <h4
+    className="title"
+  >
+    <Link
+      replace={false}
+      to="/services/undefined"
+    >
+      A service
+    </Link>
+  </h4>
+  <p
+    className="subtitle"
+  />
+</div>
+`;

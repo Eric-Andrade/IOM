@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component should render as expected 1`] = `
+<div>
+  <Services
+    key="ice-cream-shop"
+    sImage="ice-cream-shop.jpg"
+    sInfo="We sale the best cultural ice-cream"
+    sName="Ice-cream shop"
+    slug="ice-cream-shop"
+    titleLink={true}
+  />
+</div>
+`;
+
+exports[`Home component should render as expected 2`] = `
+<div>
+  <Services
+    key="ice-cream-shop"
+    sImage="ice-cream-shop.jpg"
+    sInfo="We sale the best cultural ice-cream"
+    sName="Ice-cream shop"
+    slug="ice-cream-shop"
+    titleLink={true}
+  />
+  <Services
+    key="ice-cream-shop"
+    sImage="ice-cream-shop.jpg"
+    sInfo="We sale the best cultural ice-cream"
+    sName="Ice-cream shop"
+    slug="ice-cream-shop"
+    titleLink={true}
+  />
+</div>
+`;
+
+exports[`Home component should render as expected 3`] = `
+<div>
+  <p>
+    Awaiting services...
+  </p>
+</div>
+`;

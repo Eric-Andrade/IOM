@@ -1,0 +1,37 @@
+:root{
+    --site-width: 98rem;
+}
+
+html{
+    font-family: sans-serif;
+    font-size: 62.5%;
+    box-sizing: border-box;
+    background-color: #f7f7f7
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+a{
+    color: #84c4f9;
+    text-decoration: none
+}
+
+a:hover,
+a:focus,
+a:active,
+a:visited
+{
+    color: #57b3ff;
+    /* -webkit-transition: 0.5s ease; 
+    transition: 0.5s ease; */
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}

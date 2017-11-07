@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component should render as expected 1`] = `
+<header
+  className="header"
+>
+  <div
+    className="container"
+  >
+    <h2
+      className="title"
+    >
+      IOM Organización Internacional para las Migraciones
+    </h2>
+    <nav>
+      <ul
+        className="listitems"
+      >
+        <li
+          className="listItem"
+        >
+          <SimpleButton>
+            <Link
+              replace={false}
+              to="/"
+            >
+              Home
+            </Link>
+          </SimpleButton>
+        </li>
+        <li
+          className="listItem"
+        >
+          <SimpleButton>
+            <Link
+              replace={false}
+              to="/about"
+            >
+              About
+            </Link>
+          </SimpleButton>
+        </li>
+        <li
+          className="listItem"
+        >
+          <SimpleButton>
+            <Link
+              replace={false}
+              to="/iom"
+            >
+              Builder Forms
+            </Link>
+          </SimpleButton>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+`;
